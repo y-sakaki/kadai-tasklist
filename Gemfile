@@ -58,7 +58,7 @@ gem 'kaminari'
 # debug tool
 gem 'pry-byebug', group: :development
 
-#heroku
+# PostgreSQL
 group :production do
   gem 'pg', '0.21.0'
 end
